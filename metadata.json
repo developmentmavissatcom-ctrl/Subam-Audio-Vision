@@ -1,0 +1,6 @@
+{
+  "name": "Subam Audio Vision",
+  "description": "Official devotional music streaming platform for Subam Audio Vision featuring S.P. Balasubrahmanyam, Veeramanidasan, Unnikrishnan, L.R. Eswari, live YouTube broadcasts, and lossless master downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
