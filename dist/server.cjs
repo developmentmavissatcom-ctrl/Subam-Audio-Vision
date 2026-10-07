@@ -22663,7 +22663,7 @@ function searchItems(items, query) {
 var app = (0, import_express.default)();
 var isCloudRun = !!process.env.K_SERVICE;
 var isProduction = process.env.NODE_ENV === "production" || isCloudRun;
-var PORT = isCloudRun || process.env.NODE_ENV === "production" && process.env.PORT ? Number(process.env.PORT) || 8080 : 3e3;
+var PORT = isCloudRun || process.env.NODE_ENV === "production" && process.env.PORT ? Number(process.env.PORT) || 8080 : 3001;
 app.use(import_express.default.json({ limit: "50mb" }));
 app.use(import_express.default.urlencoded({ extended: true, limit: "50mb" }));
 app.use((req, res, next) => {
